@@ -6,7 +6,7 @@ if (window.matchMedia("(min-width: 992px)").matches) {
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { 
             nav.style.width = "100%";
             nav.style.backgroundColor = "rgb(33 37 41 / 41%)";
-            nav.style.justifyContent = "flex-end";
+            nav.style.justifyContent = "flex-start";
         } else if (document.body.scrollTop < 50 || document.documentElement.scrollTop < 50) {
             nav.style.width = "50%";
             nav.style.backgroundColor = "#9e9e9e2e";
